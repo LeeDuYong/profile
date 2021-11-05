@@ -1,0 +1,13 @@
+.container {
+  width: 640px;
+  background: white;
+}
+body {
+  background: #eeeeee;
+}
+#personal-info {
+  border: 1px solid lightgray;
+}
+.small-title {
+  margin-top: 100px;
+}

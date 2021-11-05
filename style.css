@@ -1,13 +1,21 @@
+#personal-info {
+  border: 1px solid lightgray;
+}
+#interest {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+#link {
+  font-style: italic;
+}
+.small-title {
+  margin-top: 50px;
+  font-weight: bold;
+}
 .container {
   width: 640px;
   background: white;
 }
 body {
   background: #eeeeee;
-}
-#personal-info {
-  border: 1px solid lightgray;
-}
-.small-title {
-  margin-top: 100px;
 }

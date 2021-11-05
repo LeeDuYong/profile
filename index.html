@@ -12,17 +12,32 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Profile</title>
   </head>
   <body>
-    <div class="container border border-success border-5">
+    <div
+      class="
+        container
+        border border-success border-5
+        shadow
+        p-3
+        mb-5
+        bg-body
+        rounded
+      "
+    >
       <h1 class="text-center">Duyong's Profile</h1>
-      <p>
-        Hello, my name is Lee Duyong. This is my profile page. The table below
-        shows my personal information.
+      <p class="mt-5 text-center">
+        Hello, my name is Lee Duyong. This is my profile page.<br />I will
+        introduce myself through the contents below.
       </p>
-      <table class="table p-3 mb-2 bg-info text-white" id="personal-info">
+      <h3 class="small-title">My information</h3>
+      <table class="table table-success p-3 mb-2" id="personal-info">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -65,14 +80,19 @@
       <br />
       <a
         href="https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=120400&menuNo=7020093"
+        class="bg-success text-white"
+        id="link"
         >This is an image of my favorite place.</a
       >
       <span class="badge bg-secondary"><-Click!</span>
+
+      <h3 class="small-title">My Interest</h3>
+      <p id="interest">
+        <i class="bi bi-dice-3 ms-3"></i>Computer Game<br />
+        <i class="bi bi-display ms-3"></i>Watching sports games
+      </p>
+      <h1 class="text-center">Thanks!</h1>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -80,3 +100,5 @@
     ></script>
   </body>
 </html>
+<!-- Bootstrap class: Layout/Containers, Content/Tables, Components/Badge-->
+<!-- Utility class: Utility/Background, Utility/Borders, Utility/Shadows, Utility/Text -->
